@@ -1,0 +1,178 @@
+@media (min-width: 832px) {
+  div {
+    color: rgb(241, 245, 241);
+    font-size: 15px;
+    width: 200px;
+    height: 400px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 50px;
+    font-family: "lexend Deca", sans-serif;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 40px;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+  }
+
+  #sedan {
+    color: rgb(242, 250, 242);
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  #sedan button {
+    color: hsl(31, 77%, 52%);
+  }
+  #sedan button:hover { cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+  }
+  #suv {
+    color: rgb(247, 242, 250);
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+  }
+  #suv button {
+    color: hsl(184, 100%, 22%);
+  }
+  #suv button:hover{
+    background-color: hsl(184, 100%, 22%);
+  color: white;
+cursor: pointer;
+border: 1px solid white;}
+
+  #luxury {
+    color: rgb(230, 230, 247);
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  #luxury button {
+    color: hsl(179, 100%, 13%);
+  }
+  #luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+  }
+
+  html {
+    font-family: "Big Shoulders Display", cursive;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  section {
+    flex-direction: row;
+    display: flex;
+    border-radius: 100px;
+    padding: 40px;
+    font-size: 2px;
+  }
+  p {
+    font-size: 100px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+  }
+
+  button {
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    border-style: none;
+    
+  }
+
+  nav {
+    text-align: justify;
+    font-size: 100px;
+    padding-right: 350px;
+  }
+}
+
+@media (max-width: 832px) {
+  div {
+    color: rgb(241, 245, 241);
+    font-size: 15px;
+    width: 200px;
+    height: 400px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 40px;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+  }
+  #sedan {
+    color: rgb(242, 250, 242);
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    border-top-left-radius: 15px;
+  }
+  #sedan button {
+    color: hsl(31, 77%, 52%);
+  }
+  #suv {
+    color: rgb(247, 242, 250);
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+  }
+  #suv button {
+    color: hsl(184, 100%, 22%);
+  }
+  #luxury {
+    color: rgb(230, 230, 247);
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+    border-bottom-right-radius: 15px;
+  }
+  #luxury button {
+    color: hsl(179, 100%, 13%);
+  }
+
+  html {
+    font-family: "Big Shoulders Display", cursive;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  section {
+    flex-direction: column;
+    display: flex;
+    border-radius: 100px;
+    padding: 40px;
+    font-size: 2px;
+  }
+  p {
+    font-size: 100px;
+    justify-content: left;
+    display: flex;
+    text-align: center;
+  }
+
+  button {
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+  }
+  nav {
+    text-align: justify;
+    font-size: 100px;
+    padding-right: 350px;
+  }
+}
