@@ -1,0 +1,96 @@
+div {
+  background-color: rgb(241, 247, 246);
+  padding: 25px;
+  color: hsl(218, 22%, 67%);
+  line-height: 25px;
+}
+
+nav {
+  background-color: hsl(182, 38%, 44%);
+  padding: 25px;
+  text-align: left;
+  color: white;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  padding: 25px;
+  font-family: "Karla", sans-serif;
+  align-self: center;
+}
+
+.green {
+  background-color: rgb(62, 192, 166);
+  color: rgb(247, 240, 239);
+  padding-bottom: 40px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.gren button {
+  background-color: rgb(190, 216, 40);
+  width: 255px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  font-size: 90%;
+  border-style: none;
+}
+
+.white {
+  text-align: left;
+}
+
+.button {
+  color: rgb(224, 243, 116);
+  text-align: center;
+}
+footer {
+  text-align: left;
+  padding-right: 850px;
+}
+
+h1 {
+  font-size: 120%;
+  text-align: left;
+}
+
+h3 {
+  line-height: normal;
+}
+
+span {
+  font-weight: 2;
+  font-size: 15px;
+  align-self: center;
+  text-align: center;
+}
+
+.day {
+  color: rgb(190, 216, 40);
+}
+
+@media (min-width: 800px) {
+  section {
+    display: flex;
+  }
+  .white {
+    width: 650px;
+  }
+  nav {
+    width: 300px;
+  }
+  .green {
+    width: 300px;
+  }
+
+  body {
+    align-self: center;
+  }
+  .gren button {
+    border-radius: 5px;
+    width: 100%;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
